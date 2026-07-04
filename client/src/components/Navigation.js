@@ -9,6 +9,7 @@ function Navigation({ onLogout, user }) {
       </div>
       <div>
         <Link to="/">Dashboard</Link>
+        <Link to="/analytics">Analytics</Link>
         <Link to="/add-meal">Add Meal</Link>
         <Link to="/profile">Profile</Link>
         <button onClick={onLogout} style={{ background: 'none', border: 'none', color: 'white', cursor: 'pointer' }}>

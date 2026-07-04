@@ -6,6 +6,7 @@ import Register from './pages/Register';
 import Dashboard from './pages/Dashboard';
 import AddMeal from './pages/AddMeal';
 import Profile from './pages/Profile';
+import Analytics from './pages/Analytics';
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -43,6 +44,7 @@ function App() {
         <Route path="/" element={isAuthenticated ? <Dashboard /> : <Navigate to="/login" />} />
         <Route path="/add-meal" element={isAuthenticated ? <AddMeal /> : <Navigate to="/login" />} />
         <Route path="/profile" element={isAuthenticated ? <Profile /> : <Navigate to="/login" />} />
+        <Route path="/analytics" element={isAuthenticated ? <Analytics /> : <Navigate to="/login" />} />
       </Routes>
     </Router>
   );
