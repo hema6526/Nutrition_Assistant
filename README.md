@@ -4,13 +4,6 @@ A complete full-stack web application for tracking daily nutrition, meal logs, a
 
 ---
 
-## 🎨 Application Dashboard Preview
-Below is the running interface of the application dashboard:
-
-![Nutrition Assistant Dashboard](./nutrition_dashboard_mockup.jpg)
-
----
-
 ## 🏗️ Project Structure
 ```
 nutrition-assistant/
